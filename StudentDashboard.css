@@ -1,0 +1,32 @@
+.student-header {
+  margin-left: 30px;
+  display: flex;
+  width: 1000px;
+  height: 50px;
+}
+
+.header-welcome {
+  /* display: flex; */
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: left;
+  margin-left: 28px;
+  font-family: sans-serif;
+}
+
+.student-tabs {
+  margin-left: 50px;
+}
+
+.student-dash{
+  margin-left: 115px;
+}
+
+.stdbg{
+  position: relative;
+  min-height: 100vh;
+  background-image: url(../Images/stdbg.jpg);
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position: center;
+}

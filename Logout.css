@@ -1,0 +1,27 @@
+.logout-submit-button {
+  margin-top: 10px;
+  margin-left: 10px;
+  /* display: inline-block;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 900px;
+  padding: 5px;
+  width: 100px;
+  background: white;
+  color: black;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+
+  border: 1px solid #303f9f;
+  border-radius: 8px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; */
+}
+
+.logout-submit-button:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}

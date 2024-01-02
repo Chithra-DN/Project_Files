@@ -1,0 +1,54 @@
+.view-stdprofile-bg {
+  background-color: rgb(127, 148, 129);
+  display: flex;
+  width: 1000px;
+  height: 600px;
+}
+
+.view-stdprofile-container {
+  width: 530px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  height: auto;
+  max-height: 200px;
+  overflow-y: auto;
+  border-radius: 8px;
+  background-color: rgb(213, 219, 213);
+  margin-top: 30px;
+  position: relative;
+  margin-left: 50px;
+}
+
+.view-stdprofile-reg,
+.view-stdprofile-name,
+.view-stdprofile-dob,
+.view-stdprofile-college,
+.view-stdprofile-department,
+.view-stdprofile-username {
+  height: 20px;
+  width: 450px;
+  display: inline-block;
+}
+
+.stdprofile-header {
+  height: 20px;
+  width: 450px;
+  margin-left: 0px;
+  font-weight: bold;
+  /* display: inline-block; */
+}
+
+.view-stdprofile-header {
+  border-radius: 3px;
+  background-color: rgb(197, 157, 38);
+  margin-top: 10px;
+}
+
+.loanApp-span-leftvalue {
+  font-weight: 500;
+  float: left;
+}
+
+.loanApp-span-rightvalue {
+  font-size: medium;
+  float: right;
+}

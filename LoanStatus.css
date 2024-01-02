@@ -1,0 +1,71 @@
+.display-loanstatus-bg {
+  /* background-color: rgb(206, 223, 208); */
+  background-color: rgb(127, 148, 129);
+  display: flex;
+  width: 1000px;
+  height: 600px;
+}
+
+.display-loanstatus-container {
+  width: 400px;
+  height: auto;
+  max-height: 500px;
+  overflow-y: auto;
+  margin-top: 30px;
+  margin-left: 50px;
+  /* background-color: rgb(184, 245, 106); */
+}
+.display-loanstatus-application {
+  max-height: 550px;
+}
+ipugg
+
+.display-loan-title {
+  width: 200px;
+  height: 30px;
+  margin-top: 0px;
+  margin-left: 400px;
+}
+.span-bank-title {
+  font-weight: 200;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+
+.loanApp-container {
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  min-height: 120px;
+  width: 330px;
+  background-color: rgb(174, 216, 218);
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.loanApp-name,
+.loanApp-id,
+.loanApp-interest,
+.loanApp-bank,
+.loanApp-amt,
+.loanApp-status {
+  height: 20px;
+  width: 300px;
+  display: inline-block;
+}
+
+.loanApp-span-leftvalue {
+  font-weight: 500;
+  float: left;
+}
+
+.loanApp-span-rightvalue {
+  font-size: small;
+  float: right;
+}
+
+.loanApp-view-btn {
+  background-color: rgb(120, 170, 209);
+  width: 300px;
+}

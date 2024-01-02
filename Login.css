@@ -1,0 +1,290 @@
+.loginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+}
+
+.login-form-container {
+  width: 500px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  height: 450px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+  margin-top: 30px;
+}
+
+
+.bg-image1{
+  position: relative;
+  height: 100vh;
+  background-image: url(../Images/img2.jpg);
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.login-title {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.link-primary {
+  color: blue;
+}
+
+.text-centre {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+  text-align: center;
+}
+
+.username-span {
+  font-weight: normal;
+  margin-left: 10px;
+  display: flex;
+  width: 100px;
+  text-align: left;
+}
+
+.password-span {
+  font-weight: normal;
+  margin-left: 10px;
+  display: flex;
+  width: 100px;
+  text-align: left;
+}
+
+.separator {
+  margin-top: 20px;
+}
+
+.form-username-input {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 350px;
+  height: 30px;
+}
+
+.form-password-input {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 350px;
+  height: 30px;
+}
+
+.profile-span {
+  font-weight: normal;
+  margin-left: 10px;
+  display: flex;
+  width: 100px;
+  text-align: left;
+}
+
+.profile-select {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 360px;
+  height: 30px;
+}
+
+/* .form-username-input:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.form-password-input:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+} */
+
+.login-submit-button {
+  background-color: #198bef;
+  color: white;
+  border: none;
+  width: 360px;
+  margin-left: 0px;
+  margin-top: 30px;
+  height: 35px;
+  font-size: medium;
+  position: relative;
+}
+.login-back-button {
+  background-color: #4a4a53;
+  color: white;
+  border: none;
+  width: 360px;
+  margin-left: 0px;
+  margin-top: 30px;
+  height: 35px;
+  font-size: medium;
+  position: relative;
+  text-decoration: none;
+  padding-top: 5px;
+}
+
+.form-submit :hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.registerPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+}
+
+.register-form-container {
+  width: 500px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  height: 500px;
+  margin-top: 250px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.register-title {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.register-text-centre {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.link-primary {
+  color: blue;
+}
+
+.loginError {
+  color: red;
+}
+
+.login-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+  text-align: center;
+}
+
+.reg-username-span {
+  font-weight: bold;
+  margin-left: 0px;
+}
+
+.reg-password-span {
+  font-weight: bold;
+  margin-left: 0px;
+}
+
+.reg-email-span {
+  font-weight: bold;
+  margin-left: 0px;
+}
+
+.reg-mobile-span {
+  font-weight: bold;
+  margin-left: 0px;
+}
+
+.register-username-input {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 70px;
+  margin-bottom: 10px;
+  width: 350px;
+  height: 30px;
+}
+
+.register-password-input {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 70px;
+  margin-bottom: 10px;
+  width: 350px;
+  height: 30px;
+}
+
+.register-email-input {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 70px;
+  margin-bottom: 10px;
+  width: 350px;
+  height: 30px;
+}
+
+.register-mobile-input {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 70px;
+  margin-bottom: 10px;
+  width: 350px;
+  height: 30px;
+}
+
+.register-username-input:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.register-password-input:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.register-email-input:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.register-mobile-input:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.regMessage {
+  color: rgb(34, 24, 179);
+  text-align: center;
+}
+
+.register-submit-button {
+  background-color: #198bef;
+  color: white;
+  border: none;
+  margin-left: 0px;
+  margin-top: 30px;
+  width: 360px;
+  height: 35px;
+  font-size: medium;
+  position: relative;
+}
+
+.register-submit :hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.register-submit-button:disabled {
+  background-color: #d4dee7;
+}
+
+.signupError {
+  color: red;
+  text-align: center;
+  margin-top: 0px;
+}

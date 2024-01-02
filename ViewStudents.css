@@ -1,0 +1,85 @@
+.view-students-bg {
+  /* background-color: rgb(204, 215, 190); */
+  background-color: rgb(190, 206, 205);
+  /* display: flex; */
+  width: 1000px;
+  height: 600px;
+}
+
+.view-students-container {
+  width: 930px;
+  height: auto;
+  max-height: 500px;
+  overflow-y: auto;
+  margin-top: 30px;
+  margin-left: 50px;
+  /* background-color: rgb(184, 245, 106); */
+}
+
+.view-students-title {
+  width: 200px;
+  height: 30px;
+  margin-top: 0px;
+  margin-left: 400px;
+}
+
+.view-students-title {
+  width: 200px;
+  height: 30px;
+  margin-top: 0px;
+  margin-left: 400px;
+  font-weight: bold;
+  font-size: medium;
+}
+.student-container {
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  min-height: 150px;
+  width: 330px;
+  /* background-color: rgb(231, 246, 249); */
+  background-color: rgb(241, 239, 239);
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.student-reg {
+  height: 20px;
+  width: 300px;
+  display: inline-block;
+}
+
+.student-name {
+  height: 20px;
+  width: 300px;
+  display: inline-block;
+}
+
+.student-dob {
+  height: 20px;
+  width: 300px;
+  display: inline-block;
+}
+
+.student-college {
+  height: 20px;
+  width: 300px;
+  display: inline-block;
+}
+
+.student-dep {
+  height: 20px;
+  width: 300px;
+  display: inline-block;
+}
+
+.student-span-leftvalue {
+  font-weight: 500;
+  float: left;
+}
+
+.student-span-rightvalue {
+  font-size: medium;
+  float: right;
+}

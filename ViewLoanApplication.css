@@ -1,0 +1,122 @@
+.view-loan-app-bg {
+  /* background-color: rgb(190, 206, 205); */
+  display: flex;
+  width: 500px;
+  height: 600px;
+}
+
+.view-loan-app-container {
+  width: 530px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  height: auto;
+  max-height: 550px;
+  overflow-y: auto;
+  border-radius: 8px;
+  background-color: rgb(241, 239, 239);
+  margin-top: 30px;
+  position: relative;
+}
+
+.view-loanApp-name,
+.view-loanApp-id,
+.view-loanApp-stdname,
+.view-loanApp-date,
+.view-loanApp-interest,
+.view-loanApp-bank,
+.view-loanApp-branch,
+.view-loanApp-tenure,
+.view-loanApp-comment,
+.view-loanApp-amt {
+  height: 20px;
+  width: 450px;
+  display: inline-block;
+}
+
+.view-loanApp-status {
+  border-radius: 2px;
+  background-color: rgb(240, 177, 104);
+  margin-top: 5px;
+  height: 30px;
+  width: 450px;
+  display: inline-block;
+}
+
+.view-loan-app-header {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.loanApp-span-leftvalue {
+  font-weight: 500;
+  float: left;
+}
+
+.loanApp-span-rightvalue {
+  font-size: small;
+  float: right;
+}
+
+.doc1 {
+  font-weight: 500;
+  text-align: left;
+  width: 450px;
+  margin-left: 20px;
+}
+/* .doc1-val {
+  text-align: left;
+  width: 450px;
+  margin-left: 20px;
+}
+
+.doc1-edit {
+  text-align: left;
+  width: 450px;
+  margin-left: 20px;
+} */
+
+.doc2 {
+  text-align: left;
+  font-weight: 500;
+  width: 450px;
+  margin-left: 20px;
+}
+/* .doc2-val {
+  text-align: left;
+  width: 450px;
+  margin-left: 20px;
+}
+
+.doc2-edit {
+  text-align: left;
+  width: 450px;
+  margin-left: 20px;
+} */
+
+.doc3 {
+  font-weight: 500;
+  text-align: left;
+  width: 450px;
+  margin-left: 20px;
+}
+/* .doc3-val {
+  text-align: left;
+  width: 450px;
+  margin-left: 20px;
+}
+
+.doc3-edit {
+  text-align: left;
+  width: 450px;
+  margin-left: 20px;
+} */
+
+.loanApp-std-edit-submit {
+  margin-top: 10px;
+  background-color: lightskyblue;
+  width: 440px;
+  margin-bottom: 20px;
+}
+
+.loanApp-std-edit-submit:hover {
+  background-color: white;
+}
